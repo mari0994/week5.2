@@ -1,0 +1,320 @@
+/*general*/
+body{
+    background-color: #0a0a0a;
+}
+
+h2, h3, p, a, li, button, span, figcaption, label, td, th{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/*header*/
+
+#logo{
+    margin-top: 12px;
+    margin-left: 91px;
+}
+
+nav{
+    margin-top: 54px;
+}
+.menu{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+button.menu{
+    background-color: #0a0a0a;
+    border: none;
+    padding-left:100px;
+}
+
+nav a:last-child{
+    color:#FF7A00;
+}
+
+h1{
+color: white;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+margin-left: 120px;
+}
+
+header p{
+    font-size: 22px;
+    margin-left: 120px;
+}
+
+#get-consultation{
+    background-color: #1C1D1E;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 3px solid #FF7A00;
+    width: 300px;
+    height: 51px;
+    margin-left: 123px;
+}
+
+.border{
+    background: url('../images/photo1.png') no-repeat;
+    width: 681px;
+    height: 520px;
+    border: 10px solid #FF7A00;
+    margin-left: 782px;
+}
+
+/*body*/
+
+/*Как мы работаем*/
+
+.how-we-work{
+    background-image: url('../images/background1.png'), linear-gradient(45deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+        height: 504px;
+        width: 1440px;
+        background-size: 100%;
+        background-position: center ;
+}
+/*почему не получается наложить на фон цвет полупрозрачный черный*/
+
+.how-we-work h2{
+    margin-left: 563px;
+}
+
+.how-we-work ol{
+    font-size: 18px;
+}
+
+.how-we-work ol li:first-child{
+    list-style-image: url('../images/01.png');
+    margin-left: 221px;
+}
+
+.how-we-work ol li:nth-child(2){
+    list-style-image: url('../images/02.png');
+    margin-left: 221px;
+}
+
+.how-we-work ol li:nth-child(3){
+    list-style-image: url('../images/03.png');
+    margin-left: 832px;
+}
+
+.how-we-work ol li:nth-child(4){
+    list-style-image: url('../images/04.png');
+    margin-left: 831px;
+}
+
+.how-we-work ol li:nth-child(5){
+    list-style-image: url('../images/05.png');
+    margin-left: 527px;
+}
+
+/*Наши услуги*/
+
+.services h2{
+    margin-left: 597px;
+}
+
+.services button{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 22px;
+    border: none;
+}
+
+.services1{
+    background-image: url('../images/background2.png'), url('../images/icon2.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, left bottom;
+    width: 386px;
+    height: 177px;
+    margin-left: 222px;
+}
+
+.services2{
+    background-image: url('../images/background3.png'), url('../images/icon3.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, left bottom;
+    width: 386px;
+    height: 177px;
+    margin-left: 222px;
+}
+
+.services3{
+    background-image: url('../images/background4.png'), url('../images/icon4.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, left bottom;
+    width: 386px;
+    height: 177px;
+    margin-left: 222px;
+}
+
+.services4{
+    background-image: url('../images/background5.png'), url('../images/icon5.png'), url('../images/icon1.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, left bottom, left bottom;
+    width: 386px;
+    height: 177px;
+    margin-left: 222px;
+}
+
+.services h3{
+    font-size: 24px;
+    margin-left: 837px;
+}
+
+.services ul{
+    font-size: 18px;
+    margin-left: 731px;
+    list-style-type: none;
+}
+
+.plumbing{
+    background-image: url('../images/background6.png');
+    width: 590px;
+    height: 753px;
+}
+/*почему последний список так сжался??*/
+
+.services p{
+    font-size: 22px;
+    margin-left: 120px;
+}
+
+/*Давайте воплотим вашу мечту в релаьность, форма1*/ 
+
+.form1{
+    background-image: url('../images/background7.png'), url('../images/background8.png');
+    background-repeat: no-repeat;
+}
+
+.form1 h2{
+    margin-left: 352px ;
+}
+
+.form1 form{
+    margin-left: 278px ;
+}
+
+#application {
+    Width: 285px;
+    Height: 146.53px;
+}
+
+#agree a:hover{
+    text-decoration: underline;
+}
+
+/*О нас*/
+
+.aboutus{
+    background-image: url('../images/background9.png');
+    width: 1440px;
+    height: 520px;
+}
+
+.aboutus h2{
+    font-size: 70px;
+    margin-left: 222px;
+}
+
+.aboutus ul{
+    font-size: 22px;
+    list-style-type: none;
+    margin-left: 119px;
+}
+
+.aboutus div{
+    margin-left: 960px;
+}
+
+.aboutus span:first-child{
+    font-size: 18px;
+}
+
+.aboutus span:nth-child(2){
+    font-size: 100px;
+    color:#FF7A00;
+}
+
+.aboutus span:last-child{
+    font-size: 18px;
+}
+
+/*Галерея работ*/
+
+.gallery h2{
+    margin-left: 591px;
+}
+
+.gallery figcaption{
+    font-size: 24px;
+}
+
+/*Прайс-лист на услуги*/
+
+.price h2{
+    margin-left: 521px;
+}
+
+.price table{
+    margin-left: 222px;
+}
+
+.download{
+    background-color: #1C1D1E;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 3px solid #FF7A00;
+    width: 203px;
+    height: 51px;
+    margin-left: 1015px;
+}
+
+/*Свяжитесь с нами или оставьте заявку, форма2*/
+
+.form2{
+    background-image: url('../images/background7.png'), url('../images/background10.png') ;
+    background-repeat: no-repeat;
+}
+
+.form2 h2{
+    margin-left: 892px;
+}
+
+.form2 form{
+    margin-left: 827px;
+}
+
+#application2 {
+    Width: 285px;
+    Height: 146.53px;
+}
+
+#agree2 a:hover{
+    text-decoration: underline;
+}
+
+/*footer*/
+
+footer a{
+    font-size: 16px;
+}
+
+footer p{
+    font-size: 20px;
+}
