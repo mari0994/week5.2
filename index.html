@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safehouse</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/logo.png" />
-    <link rel="stylesheet" href="assets/styles/normalize.css" />
     <link rel="stylesheet" href="assets/styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,38 +18,60 @@
   <body>
     <header>
       <nav>
-        <img id="logo" src="assets/images/logo.png" alt="safehouse logo" />
-        <a class="menu" href="#">Портфолио</a>
-        <a class="menu" href="#">Услуги</a>
-        <a class="menu" href="#">Цены</a>
-        <a class="menu" href="#">Контакты</a>
-        <button class="menu">+375 (25) 123-45-67</button>
-        <a class="menu" href="#">Заказать звонок</a>
+        <div class="n-part1">
+          <img id="logo" src="assets/images/logo.png" alt="safehouse logo" />
+          <a class="menu" href="#">Портфолио</a>
+          <a class="menu" href="#">Услуги</a>
+          <a class="menu" href="#">Цены</a>
+          <a class="menu" href="#">Контакты</a>
+        </div>
+        <div class="n-part2">
+          <button class="menu">+375 (25) 123-45-67</button>
+          <a class="menu" href="#">Заказать звонок</a>
+        </div>
       </nav>
-      <h1>Строительство и ремонт в Гомеле</h1>
-      <p>Надежное будущее строим вместе</p>
-      <button id="get-consultation">Получить консультацию</button>
-      <div class="border"></div>
+      <div class="container">
+        <div class="box1">
+          <h1>Строительство и ремонт в Гомеле</h1>
+          <p>Надежное будущее строим вместе</p>
+          <button id="get-consultation">Получить консультацию</button>
+        </div>
+        <div class="box2">
+          <div class="border1"></div>
+          <img src="assets/images/photo1.png" alt="интерьер гостинной" />
+          <div class="border2"></div>
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="how-we-work">
-        <h2>КАК МЫ РАБОТАЕМ</h2>
+        <div class="box1">
+          <div class="line"></div>
+          <h2>КАК МЫ РАБОТАЕМ</h2>
+          <div class="line"></div>
+        </div>
         <ol>
           <li>Бесплатный выезд мастера на объект для оценки работы</li>
-          <li>Обсуждение работы с заказчиком</li>
           <li>Оформление и подписание договора</li>
+          <li>Обсуждение работы с заказчиком</li>
           <li>Выполнение работ в соответствии с пожеланиями заказчика</li>
           <li>Прием работы заказчиком и окончательный расчет</li>
         </ol>
       </section>
       <section class="services">
-        <h2>НАШИ УСЛУГИ</h2>
-        <div class="services1"><button>Отделочные работы</button></div>
-        <div class="services2"><button>Строительство домов</button></div>
-        <div class="services3"><button>Электрика</button></div>
-        <div class="services4"><button>Сантехника</button></div>
-        <div>
+        <div class="box1">
+          <h2>НАШИ УСЛУГИ</h2>
+          <div class="line"></div>
+        </div>
+        <div class="container">
+          <div class="box2">
+            <div class="services1"><button>Отделочные работы</button></div>
+            <div class="services2"><button>Строительство домов</button></div>
+            <div class="services3"><button>Электрика</button></div>
+            <div class="services4"><button>Сантехника</button></div>
+          </div>
+          <!--<div>
           <h3>Отделочные работы</h3>
           <ul>
             <li>Электромонтажные и сантехнические работы</li>
@@ -87,26 +108,27 @@
             <li>Сборка электросчетчиков</li>
             <li>Установка электросчетчиков</li>
           </ul>
-        </div>
-        <div class="plumbing">
-          <h3>Сантехника</h3>
-          <ul>
-            <li>Перенос и установка счетчиков</li>
-            <li>Монтаж и ремонт водопровода</li>
-            <li>Монтаж отопления</li>
-            <li>Монтаж канализации</li>
-            <li>Замена и перенос полотенцесушителя</li>
-            <li>Установка кранов на полотенцесушитель</li>
-            <li>Установка инсталляций</li>
-            <li>Установка всех видов сантех оборудования</li>
-            <li>Замена батарей отопления</li>
-            <li>Замена и демонтаж радиатора отопления</li>
-            <li>Замена труб в ванной и туалете</li>
-            <li>Замена труб в ванной</li>
-            <li>Замена труб на пластиковые</li>
-            <li>Монтаж трубопроводов ПВХ</li>
-            <li>Замена и демонтаж радиатора отопления</li>
-          </ul>
+        </div> -->
+          <div class="plumbing">
+            <h3>Сантехника</h3>
+            <ul>
+              <li>Перенос и установка счетчиков</li>
+              <li>Монтаж и ремонт водопровода</li>
+              <li>Монтаж отопления</li>
+              <li>Монтаж канализации</li>
+              <li>Замена и перенос полотенцесушителя</li>
+              <li>Установка кранов на полотенцесушитель</li>
+              <li>Установка инсталляций</li>
+              <li>Установка всех видов сантех оборудования</li>
+              <li>Замена батарей отопления</li>
+              <li>Замена и демонтаж радиатора отопления</li>
+              <li>Замена труб в ванной и туалете</li>
+              <li>Замена труб в ванной</li>
+              <li>Замена труб на пластиковые</li>
+              <li>Монтаж трубопроводов ПВХ</li>
+              <li>Замена и демонтаж радиатора отопления</li>
+            </ul>
+          </div>
         </div>
         <p>
           Для многих ремонт — это что-то вроде стихийного бедствия, но чем
@@ -165,12 +187,12 @@
           <img src="assets/images/photo3.png" alt="кладка дома снаружи" />
           <figcaption>КЛАДКА</figcaption>
         </figure>
-        <figure>
+        <figure id="gallery3">
           <img src="assets/images/photo4.png" alt="отделка помещения" />
           <figcaption>ОТДЕЛКА</figcaption>
         </figure>
-        <img src="assets/images/icon1.png" alt="наведение пальца" />
-        <!--или куда это поставить?-->
+
+        <!--или куда это поставить  <img src="assets/images/icon1.png" alt="наведение пальца" />?-->
         <figure>
           <img src="assets/images/photo5.png" alt="кровля крыши" />
           <figcaption>КРОВЛЯ</figcaption>
